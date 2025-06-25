@@ -4,7 +4,6 @@ const session = require(`express-session`);
 const passport = require(`passport`);
 const GoogleStrategy = require(`passport-google-oauth20`).Strategy;
 const dbconnect = require(`./config/dbconnect.js`);
-// const redisClient = require(`./config/redisconnect`);
 const app = express();
 const authRoutes = require(`./routes/authRoute.js`);
 const userRoutes = require(`./routes/userRoute.js`);
