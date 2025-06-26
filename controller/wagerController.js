@@ -408,9 +408,7 @@ const confirmWager = async (req, res) => {
         message: `You have not been invited to this wager`,
       });
     }
-    // cron.schedule(`* * * * *`, function () {
-    //   sendMail();
-    // });
+
     // function sendMail() {
     //   let mailTransporter = nodemailer.createTransport({
     //     service: `gmail`,
